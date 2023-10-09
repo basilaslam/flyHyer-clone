@@ -4,7 +4,7 @@ import { fadeinAnimationsVariants } from "@/lib/animations"
 const Experiance = () => {
     return(
         <div className="m-5 md:m-20">
-            <motion.h1 className="text-6xl md:text-9xl lg:text-[250px] font-bold md:leading-[200px]">Hyer® Experience</motion.h1>
+            <motion.h1 className="text-6xl md:text-7xl lg:text-9xl xl:text-[250px] font-bold md:leading-[200px]">Hyer® Experience</motion.h1>
 
             <div className="md:flex my-36">
                 <div className="w-full md:w-1/2">

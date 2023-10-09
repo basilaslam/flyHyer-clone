@@ -77,7 +77,7 @@ const Footer = () => {
                 </div> 
 
 
-                <div className="hidden lg:block w-80 ml-3 md:ml-36">
+                <div className="hidden xl:block w-80 ml-3 md:ml-36">
                     <div>
                         <motion.h3 className="text-3xl  font-bold text-white">Membership</motion.h3>
                         <motion.p className="text-xl md:text-2xl  text-[#8E8E95] my-1 hover:text-[#ff] cursor-pointer">Elevate</motion.p>
