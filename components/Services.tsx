@@ -7,12 +7,12 @@ import { fadeinAnimationsVariants } from "@/lib/animations";
 const Services = () => {
 
   return (
-    <div className="grid grid-cols-1 md:grid-cols-3 md:h-screen mt-16">
+    <div className="grid grid-cols-1 md:grid-cols-3 md:h-[900px] mt-16">
       <div className="bg-[#151623] relative h-[400px] md:h-full">
-        <motion.h1 variants={fadeinAnimationsVariants} initial="initial" whileInView={"animate"} viewport={{once: true}} className="m-5 font-bold text-white text-4xl md:text-7xl md:m-16 mb-28 ">Flexible <br className="hidden md:block" /> Services</motion.h1>
+        <motion.h1 variants={fadeinAnimationsVariants} initial="initial" whileInView={"animate"} viewport={{once: true}} className="m-5 font-bold text-white text-4xl md:text-[53px] 2xl:text-[67px] md:m-16 mb-28 lg:leading-[67px]">Flexible <br className="hidden md:block" /> Services</motion.h1>
         <div className=" absolute bottom-0 left-0 ml-5 md:mx-20 my-16">
-            <motion.h3 variants={fadeinAnimationsVariants} initial="initial" whileInView={"animate"} viewport={{once: true}} className="text-xl md:text-2xl text-white font-bold w-full md:w-5/6">Smart solution for all your charter requirements</motion.h3>
-            <Button variant={"outline"} className="md:py-8 font-bold text-lg mt-6 rounded-full" size={"lg"}>
+            <motion.h3 variants={fadeinAnimationsVariants} initial="initial" whileInView={"animate"} viewport={{once: true}} className="text-xl md:text-xl 2xl:text-2xl text-white font-bold w-full md:w-5/6 md:leading-[22px]">Smart solution for all your charter requirements</motion.h3>
+            <Button variant={"outline"} className="2xl:py-8 font-bold text-lg mt-6 rounded-full" size={"lg"}>
                 <motion.a href=""variants={fadeinAnimationsVariants} initial="initial" whileInView={"animate"} viewport={{once: true}} className="">All Solutions</motion.a>
             </Button>
         </div>

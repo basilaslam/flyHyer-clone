@@ -47,8 +47,6 @@ function Carousel() {
 
   return (
     <div className='max-w-[1760px] h-full w-full m-auto py-16 px-4 group mb-24'>
-
-      <Button className='bg-black rounded-full text-lg font-bold my-24' size={"lg"}>Book an Aicraft</Button>
       <div
         style={{ backgroundImage: `url(${slides[currentIndex].url})` }}
         className='w-full h-[300px] md:h-[750px] grid grid-cols-3 bg-center duration-500 relative bg-cover'

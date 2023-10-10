@@ -24,7 +24,7 @@ const Destination = () => {
     }
     return(
         <div className=" lg:container max-w-screen-lg mx-auto my-48">
-            <motion.h1 className="font-bold text-5xl  md:text-7xl my-16 mb-28 ml-5 md:ml-0">Popular Destination</motion.h1>
+            <motion.h1 className="font-bold text-5xl md:text-[53px]  2xl:text-7xl my-16 mb-28 ml-5 md:ml-0">Popular Destination</motion.h1>
             <div className="md:flex md:gap-10">
                 {/* Left div */}
                 <motion.div key={gallery}
@@ -39,27 +39,27 @@ const Destination = () => {
                 <div className="grid grid-cols-2 flex-1 gap-10 mx-5">
 
                     <div className=" border-y border-gray-300 rounded-br-3xl flex flex-col justify-between" onMouseEnter={() => getImage('barcelona')}>
-                        <motion.h2 variants={fadeinAnimationsVariants} initial="initial" whileInView={"animate"} viewport={{once: true}} className="text-2xl md:text-4xl font-bold my-5">Barcelona <span className="font-normal">(GRO)</span></motion.h2>
+                        <motion.h2 variants={fadeinAnimationsVariants} initial="initial" whileInView={"animate"} viewport={{once: true}} className="text-2xl md:text-3xl 2xl:text-4xl font-bold my-5">Barcelona <span className="font-normal">(GRO)</span></motion.h2>
 
-                        <motion.h4 variants={fadeinAnimationsVariants} initial="initial" whileInView={"animate"} viewport={{once: true}} className=" text-xl md:text-2xl mb-5 ">Spain</motion.h4>
+                        <motion.h4 variants={fadeinAnimationsVariants} initial="initial" whileInView={"animate"} viewport={{once: true}} className=" text-xl md:text-[17px] 2xl:text-2xl mb-5 ">Spain</motion.h4>
                         
                     </div>
                     <div className=" border-y border-gray-300 rounded-br-3xl flex flex-col justify-between" onMouseEnter={() => getImage('ibiza')}>
                         <motion.h2 variants={fadeinAnimationsVariants} initial="initial" whileInView={"animate"} viewport={{once: true}} className="text-2xl md:text-4xl font-bold my-5">Ibiza <span className="font-normal">(IBZ)</span></motion.h2>
 
-                        <motion.h4 variants={fadeinAnimationsVariants} initial="initial" whileInView={"animate"} viewport={{once: true}} className=" text-xl md:text-2xl mb-5 ">Spain</motion.h4>
+                        <motion.h4 variants={fadeinAnimationsVariants} initial="initial" whileInView={"animate"} viewport={{once: true}} className=" text-xl md:text-[17px] 2xl:text-2xl mb-5 ">Spain</motion.h4>
                         
                     </div>
                     <div className=" border-b border-gray-300 rounded-br-3xl flex flex-col justify-between" onMouseEnter={() => getImage('cannes')}>
                         <motion.h2 variants={fadeinAnimationsVariants} initial="initial" whileInView={"animate"} viewport={{once: true}} className="text-2xl md:text-4xl font-bold my-5">Cannes <span className="font-normal">(CEQ)</span></motion.h2>
 
-                        <motion.h4 variants={fadeinAnimationsVariants} initial="initial" whileInView={"animate"} viewport={{once: true}} className=" text-xl md:text-2xl mb-5 ">France</motion.h4>
+                        <motion.h4 variants={fadeinAnimationsVariants} initial="initial" whileInView={"animate"} viewport={{once: true}} className=" text-xl md:text-[17px] 2xl:text-2xl mb-5 ">France</motion.h4>
                         
                     </div>
                     <div className=" border-b border-gray-300 rounded-br-3xl flex flex-col justify-between" onMouseEnter={() => getImage('paris')}>
                         <motion.h2 variants={fadeinAnimationsVariants} initial="initial" whileInView={"animate"} viewport={{once: true}} className="text-2xl md:text-4xl font-bold my-5">Paris  <span className="font-normal">(LBG)</span></motion.h2>
 
-                        <motion.h4 variants={fadeinAnimationsVariants} initial="initial" whileInView={"animate"} viewport={{once: true}} className=" text-xl md:text-2xl mb-5 ">France</motion.h4>
+                        <motion.h4 variants={fadeinAnimationsVariants} initial="initial" whileInView={"animate"} viewport={{once: true}} className=" text-xl md:text-[17px] 2xl:text-2xl mb-5 ">France</motion.h4>
                         
                     </div>
 
